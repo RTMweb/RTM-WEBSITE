@@ -1,0 +1,43 @@
+{
+  "name": "RTMTEST",
+  "version": "1.0.0",
+  "description": "RTM Test Project",
+  "author": "Chris",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/firebase": "^5.2.0",
+    "firebase": "^7.14.3",
+    "firebase-tools": "^8.4.1",
+    "google-maps": "^4.3.2",
+    "google-maps-api-loader": "^1.1.1",
+    "node-js-marker-clusterer": "^1.0.0",
+    "nuxt": "^2.0.0",
+    "nuxt-gmaps": "^1.2.5",
+    "nuxt-google-maps-module": "^1.6.0",
+    "vue-videobg": "^2.0.0",
+    "vue2-google-maps": "^0.10.7",
+    "vuetify": "^2.3.4",
+    "x5-gmaps": "^0.3.16"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.3.45",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
